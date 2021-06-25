@@ -7676,3 +7676,9 @@ details[open] summary::before {
         font-size: 25px;
     }
 }
+
+@media only screen and (max-width: 768px){
+  .country-title h4{
+    font-size: 28px;
+  }
+}
