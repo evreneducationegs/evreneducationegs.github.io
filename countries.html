@@ -446,8 +446,52 @@
             </div>
         </div>
         <div class="about-btn mt-45" style="text-align: center;">
-            <a class="default-btn" href="#">Book Free Consultation Now</a>
+            <a class="default-btn" data-toggle="modal" data-target="#exampleModalform" href="#">Book Free Consultation Now</a>
         </div>
+        <div class="modal fade" id="exampleModalform" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelform" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Book Your Consultation Now</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form action="https://formspree.io/f/xpzkrgwe" method="POST">
+                    <div class="modal-body">
+                         <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="field-1" class="control-label">Full Name</label>
+                                    <input type="text" class="form-control" id="field-1" placeholder="Full Name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="field-1" class="control-label">Contact No.</label>
+                                    <input type="number" class="form-control" id="field-1" placeholder="Contact">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="field-1" class="control-label">Email Id</label>
+                                    <input type="email" class="form-control" id="field-1" placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+                    </div>                                          
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div> 
     </div>
 </div>
 
