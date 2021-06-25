@@ -649,16 +649,17 @@
 <!-- Main JS -->
 <script src="assets/js/main.js"></script>
 
-<script> 
-    // Array of words 
-    var words = ['USA', 'Canada', 'Germany', 'Australia', 'UK', 'Ireland', 'France', 'Netherlands']; 
-    // Function that executes every 2000 milliseconds 
-    var t = setInterval(function() { 
-      // Random number generator 
-      var randomNumber = Math.round( Math.random() * (words.length-1) ); 
-      // Change the word in the span for a random one in the array of words 
-      $('#changing')( words[ randomNumber ] ); 
-    }, 1200); 
+<script>
+    $(function () {
+  count = 0;
+  wordsArray = ['USA', 'Canada', 'Germany', 'Australia', 'UK', 'Ireland', 'France', 'Netherlands'];
+  setInterval(function () {
+    count++;
+    $("#changing").fadeOut(100, function () {
+      $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400);
+    });
+  }, 2000);
+});
 </script>
 
 </body>
