@@ -7628,13 +7628,7 @@ details[open] summary::before {
   }
 }
 
-@media only screen and (min-width: 1300px){
-  .choose-negative-mrg{
-    margin-top: -40px !important;
-  }
-}
-
-@media only screen and (min-width: 1600px){
+@media only screen and (min-width: 1100px){
   .choose-negative-mrg{
     margin-top: -40px !important;
   }
