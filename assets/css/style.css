@@ -2236,6 +2236,10 @@ textarea:focus {
   z-index: 9;
   position: relative; }
 
+.home-tiles{
+  min-height: 205px !important;
+}  
+
 .single-choose-us {
   min-height: 275px;
   text-align: center;
