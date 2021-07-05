@@ -2379,6 +2379,18 @@ textarea:focus {
     font-weight: bold;
     margin: 0 0 20px;
     line-height: 38px; }
+
+    .section-title h1 {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 0 0 20px;
+      line-height: 38px;
+  }
+
+  .section-title h1 span {
+    color: #f8444f;
+    font-weight: 400;
+}
     @media only screen and (max-width: 767px) {
       .section-title h2 {
         font-size: 27px;
@@ -2771,6 +2783,15 @@ textarea:focus {
     color: #fff;
     z-index: 9;
     position: relative; }
+
+    .breadcrumb-top h1{
+      font-weight: bold;
+      font-size: 48px;
+      margin: 0 0 22px;
+      color: #fff;
+      z-index: 9;
+      position: relative;
+    }
     @media only screen and (max-width: 767px) {
       .breadcrumb-top h2 {
         font-size: 35px;
