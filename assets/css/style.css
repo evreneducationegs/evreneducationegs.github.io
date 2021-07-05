@@ -2890,6 +2890,7 @@ textarea:focus {
 }
 
 .service-box .service-content{
+  min-height: 107px;
   text-align: center;
   padding: 25px 17px 20px;
   background-color: #fff;
