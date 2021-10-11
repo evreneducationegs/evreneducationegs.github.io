@@ -9,10 +9,10 @@
     
     /* slider active */
     $('.slider-active').owlCarousel({
-        loop: false,
+        loop: true,
         nav: false,
-        autoplay: false,
-        autoplayTimeout: 5000,
+        autoplay: true,
+        autoplayTimeout: 4000,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
         item: 1,
