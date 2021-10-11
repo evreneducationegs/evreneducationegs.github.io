@@ -1770,7 +1770,7 @@ textarea:focus {
 
 /*--------- 3. Slider style ---------*/
 .slider-height-1 {
-  height: 844px; }
+  height: 650px; }
   @media only screen and (min-width: 1200px) and (max-width: 1365px) {
     .slider-height-1 {
       height: 560px; } }
@@ -2232,7 +2232,7 @@ textarea:focus {
   background-color: #10c45c; }
 
 .choose-negative-mrg {
-  margin-top: -102px;
+  /* margin-top: -102px; */
   z-index: 9;
   position: relative; }
 
@@ -7652,7 +7652,7 @@ details[open] summary::before {
 
 @media only screen and (min-width: 1100px){
   .choose-negative-mrg{
-    margin-top: -40px !important;
+    /* margin-top: -40px !important; */
   }
 }
 
@@ -7705,4 +7705,8 @@ details[open] summary::before {
   .country-title h4{
     font-size: 28px;
   }
+}
+
+.choose-us{
+  margin-top: 15px;
 }
