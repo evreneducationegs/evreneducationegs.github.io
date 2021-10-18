@@ -7710,3 +7710,13 @@ details[open] summary::before {
 .choose-us{
   margin-top: 15px;
 }
+
+.advisory{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.advisory h2{
+  font-weight: 600;
+}
