@@ -11094,3 +11094,37 @@ details[open] summary::before {
 .gen-info-content {
   margin-left: 20px;
 }
+
+.eec-branches{
+  background-color: #efefef;
+  padding-top: 70px;
+  /* padding-bottom: 50px; */
+}
+
+.branch-heading{
+  text-align: center;
+}
+
+.branch-heading h3{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.branches-box{
+  margin-top: 25px;
+  background-color: #003466;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.branches-box img{
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.branches-box h4{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+}
